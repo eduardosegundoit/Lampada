@@ -4,6 +4,7 @@
     font-family: "Gentium Book Plus", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
 }
 
 body {
@@ -11,8 +12,7 @@ body {
 }
 
 nav {
-    position: fixed;
-    margin-left: 40px;
+    margin: 2% 0% 2% 2%;
 }
 
 nav a {
@@ -20,29 +20,27 @@ nav a {
     font-size: 1.2em;
 }
 
+#git {
+    height: 2rem;
+    margin-right: 1%;
+}
+
 header {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
     color: aliceblue;
     text-shadow: 5px 5px 10px #a8a6a6;
 }
 
-#git {
-    height: 50px;
-    margin-right: 10px;
-}
-
 h1 {
-    margin-top: 20px;
     font-weight: 800;
-    font-size: 4em;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
 }
 
 main {
     text-align: center;
     background-color: antiquewhite;
-    width: 400px;
+    width: 90%;
     margin: auto;
     border-radius: 10px;
 }
@@ -69,5 +67,12 @@ footer {
     color: aliceblue;
     font-size: 1.2em;
     font-weight: 600;
-    margin-top: 30px;
+    margin: 5% 0% 2% 0%;
+}
+
+@media screen and (min-width:1200px) {
+    main {
+        width: 30%;
+
+    }
 }
